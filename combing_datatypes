@@ -1,0 +1,25 @@
+
+//1
+// const crayonBox = {
+//   crayonTypes: ["red", "blue", "green"]
+// }
+// console.log(crayonBox.crayonTypes[0])
+
+//2
+// const bottle = {
+//   cap: {
+//     material: "metal",
+//     color: "plastic",
+//   }
+// }
+// console.log(bottle.cap.material)
+
+//3
+// const recipt = [ { name: "comb" }, { price: 12 } ]
+// console.log(recipt[0]);
+
+// NOT SURE IF I DID THIS CORRECTLY
+
+//4
+
+//I DONT KNOW THIS ONE
