@@ -22,4 +22,115 @@
 
 //4
 
-//I DONT KNOW THIS ONE
+// const apartmentBuilding = ["Bill", "Phil", "Tenny", "John"]
+
+
+//Combine objects, arrays, and functions more than one level deep
+#1) Create a function knit that returns an object that has the following kinds of properties item: scarf, size : 6ft etc. Log a value of that object (hint: call the function and then call a property on the return value).
+
+const knit = {
+  item: "Scarf",
+  size: "6 ft",
+}
+console.log(knit.item)
+
+
+Create a function crayonSelector that returns an object that has an array (you can reuse your crayonBox object). Log one of the elements of that array.
+#2)
+const crayonSelector = {
+  crayonTypes: ["red", "blue", "green"]
+ }
+console.log(crayonSelector.crayonTypes[1])
+
+Create a function powerButton that returns a function called options - options should console.log a simple message like select a song. Call that inner function
+
+const powerButton = () => {
+  return ()=>{
+      console.log("select a song")
+    }
+  }
+  
+
+
+powerButton()();
+//not sure how to name it options, couldnt figure that out.
+
+VENDING MACHINE
+// const vendingMachine = {
+//   snacks: [
+//     {
+//     name: "snickers",
+//     price: 12
+//     },
+    
+//     {
+//       name:"fries",
+//     price: 8
+//     }
+  
+//   }
+//   ],
+// console.log(vendingMachine.snacks[1])
+
+const vendingMachine = {
+  snacks: [
+     {
+      name: 'twix',
+      price: 6
+    },
+    {
+      name: 'snickers',
+      price: 7
+    },
+    {
+      name: 'pear',
+      price: 9
+    }
+  ],
+  const vend = () => {
+    const item = vendingMachine.snacks.name;
+  }
+
+};
+console.log(vend[1])
+
+CALLBACKS // I DONT KNOW WHAT TO DO HERE
+ let calculate = (num1, num2,) => {
+  let one= (num1)
+  let two= (num2)
+  console.log(num1 + num2 );
+  }
+  
+let operates = (num3, num4,) => {
+  let three= (num3)
+  let four= (num4)
+  console.log(num3 + num4 );
+  }
+
+const sum = () => {
+  console.log (operates + calculate)
+
+}
+sum(calculate(1,2),operates(2,2))
+
+
+FUNCTION DEFINITION PLACEMENT
+
+const bar = () => {
+    console.log('bar here');
+}
+bar();
+
+const foo = () => {
+    console.log('foo here');
+}
+foo();
+
+
+ERROR READING
+
+const foo = ()=>{
+    console.log('hi');
+}
+foo();
+The error was because it was missing the equal sign for the arrow function and the invoker was above it
